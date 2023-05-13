@@ -8,7 +8,7 @@ export default function SearchInput({ searchElement, setSearchElement }) {
     
     return (
       <input
-        className="h-6 w-56 rounded-md outline-none border-none m-4"
+        className="h-6 w-56 rounded-md outline-none m-4 pl-1"
         type="search"
         name="search"
         value={searchElement}
