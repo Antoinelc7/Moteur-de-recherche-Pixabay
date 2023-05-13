@@ -10,6 +10,7 @@ export default function SearchInput({ searchElement, setSearchElement }) {
       <input
         className="h-6 w-56 rounded-md outline-none border-none m-4"
         type="search"
+        name="search"
         value={searchElement}
         placeholder="Rechercher des images..."
         onChange={handleChange}
